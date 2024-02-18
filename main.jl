@@ -1,3 +1,5 @@
+using Pkg
+Pkg.activate(".")
 using JuMP
 using PowerModels
 using Ipopt
